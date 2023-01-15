@@ -1,13 +1,9 @@
 using System;
 
-class Entry
+public class Entry
 {
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Hello Develop02 World!");
-    }
+    string carmen = "red";
 }
-
 
 
 

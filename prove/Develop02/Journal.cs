@@ -1,11 +1,9 @@
 using System;
+using System.IO;
 
 class Journal
 {
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Hello Develop02 World!");
-    }
+    string cart = "red";
 }
 
 // string fileName = "myFile.txt";

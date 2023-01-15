@@ -1,7 +1,6 @@
 using System;
 
-class JournalProgram
-{
+public class ProgramJourn{
     static void Main(string[] args)
     {
         //PUT A WHILE LOOP IN HERE
