@@ -1,9 +1,17 @@
 using System;
 using System.IO;
 
-class Journal
+public class Journal
 {
-    string cart = "red";
+    public static void loadJournal(){
+        string journalHistName = "JournalHistory.txt";
+        string[] eachEntry = System.IO.File.ReadAllLines(journalHistName);
+        foreach (string line in eachEntry){
+        string[] parts = line.Split("►");
+        string firstName = parts[0];
+        string lastName = parts[1];
+        }
+    }
 }
 
 // string fileName = "myFile.txt";
