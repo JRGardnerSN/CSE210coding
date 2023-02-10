@@ -7,6 +7,7 @@ public class User {
     //List<Scripture> _favoriteSrciptures = new List<Scripture>();
 }
 
+//I think that everything below is unnecessary
 public class UserInterface {
 
     public static void startUser() {
